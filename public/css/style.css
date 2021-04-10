@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 100px);
+}
+.home h1 {
+  font-size: 50px;
+  color: black;
+  text-transform: uppercase;
+}
+.navbar {
+  width: 100%;
+  height: 100px;
+  background: cyan;
+  display: flex;
+  align-items: center;
+}
+.navbar .logo {
+  width: 30%;
+  text-align: center;
+}
+.navbar ul {
+  width: 70%;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 50px;
+}
+.navbar ul li {
+  list-style: none;
+}
+.navbar ul li a {
+  margin: 0 10px;
+  text-decoration: none;
+}
+.regisForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid red;
+  height: calc(100vh - 100px);
+  background: skyblue;
+}
+
+.regisForm form input[type="submit"] {
+  font-size: 1em;
+  color: #111;
+  width: 100px;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  padding-right: 10px;
+}
+.regisForm form input {
+  width: 300px;
+  height: 40px;
+  margin-top: 10px;
+  padding-left: 10px;
+}
+.regisForm form input[type="radio"] {
+  width: unset;
+  margin-top: unset;
+}
+label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 150px;
+}
+label span {
+
+  padding-left: 5px;
+}
+.radiobtn {
+  display: flex;
+  align-items: center;
+}
